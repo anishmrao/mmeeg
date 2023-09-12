@@ -4,7 +4,6 @@ import os
 import numpy as np
 import scipy.io
 import torch
-import torch
 from .registry import DATASETS
 
 @DATASETS.register_module()
